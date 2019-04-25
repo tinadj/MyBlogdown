@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kristinin super cool R website</title>
+    <link>/</link>
+    <description>Recent content on Kristinin super cool R website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kristninin prvi post</title>
+      <link>/2019/04/25/kristninin-prvi-post/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/04/25/kristninin-prvi-post/</guid>
+      <description>Created at First WiDS at Subotica!!!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>DataTeka focuses on helping people understand 😄 and make sense of their data through thorough and insightful training strategies. We provide one to one and group tutoring that concentrate on the key aspects of mastering data science. We are able to customize courses to your personal and business requirements and build on your existing knowledge and expertise. Please tell us what your interests are: to learn about data analytics through the use of R and begin to visualize your data, or as a method of producing interactive reporting.</description>
+    </item>
+    
+  </channel>
+</rss>

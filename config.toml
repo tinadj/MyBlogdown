@@ -1,27 +1,41 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Kristinin super cool R website"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "About"
+    pre = ""
     url = "/about/"
+    weight = 1
+    
 [[menu.main]]
     name = "GitHub"
+    pre = "fa-github-square"
     url = "https://github.com/rstudio/blogdown"
+    weight = 3
 [[menu.main]]
     name = "Twitter"
+    pre="fa-twitter-square"
     url = "https://twitter.com/rstudio"
-
+    weight = 2
+[[menu.main]]
+    name = "Posts"
+    pre = "fa-bullhorn"
+    url = "/post/"
+    weight = 4
+    
 [params]
     description = "A website built through Hugo and blogdown."
-
+    chapter = "Manchester, UK"
+    customCSS = ["css/datateka.css", "css/font-awesome.min.css"]
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
@@ -33,6 +47,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     # path to the favicon, under "static"
     favicon = "favicon.ico"
+    
+    
 
     [params.logo]
     url = "DataTeka_logo.png"
